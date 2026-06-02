@@ -8,15 +8,16 @@ After Pages is enabled, the app is at:
 
 **https://gefsd1-design.github.io/AOM-Virtual-Lab-Updated/**
 
-### One-time: enable GitHub Pages (required for deploy)
+### One-time: enable GitHub Pages (required for the live site)
 
-If the **deploy** workflow fails on the Deploy step, Pages is not turned on yet:
+After the first successful workflow run, a `gh-pages` branch is created. Then:
 
 1. Open [Repository Settings → Pages](https://github.com/gefsd1-design/AOM-Virtual-Lab-Updated/settings/pages)
-2. Under **Build and deployment**, set **Source** to **GitHub Actions**
-3. Re-run the failed workflow: **Actions** → latest run → **Re-run all jobs**
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
+3. **Branch:** `gh-pages` · **Folder:** `/ (root)` · **Save**
+4. Wait 1–2 minutes, then open the live URL above
 
-Pushes to `main` will then build and publish automatically.
+Pushes to `main` rebuild and update the site automatically.
 
 ## Local development
 
