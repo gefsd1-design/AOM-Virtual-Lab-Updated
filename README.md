@@ -1,4 +1,4 @@
-# AOM Virtual Lab
+# AOM Virtual Lab (3D Acousto-Optic Modulator Experiments)
 
 Interactive 3D virtual lab for acousto-optic modulation (Vite + React + Three.js).
 
@@ -32,3 +32,83 @@ Open http://localhost:5173/AOM-Virtual-Lab-Updated/ (base path matches GitHub Pa
 npm run build
 npm run preview
 ```
+
+## Overview
+
+This project is an interactive **3D Acousto-Optic Modulator (AOM) Virtual Lab** that helps visualize key diffraction and modulation concepts through a guided set of **20 experiments**.
+
+## Features
+
+🎛️ Real-time experiment selection with guided objectives and procedures  
+🧠 Live calculations for AOM concepts (e.g., Bragg angle, efficiency, rise time)  
+🧩 Interactive 3D bench (laser diode, mirrors, lens elements, AOM module, detector, RF driver)  
+📈 Oscilloscope-style modulation visualization when modulation is enabled  
+⚡ Immediate UI/3D updates based on slider controls and toggles
+
+## Tech Stack
+
+| Component | Technology |
+|---|---|
+| Frontend | React (with hooks) |
+| 3D | `@react-three/fiber`, `@react-three/drei`, `three` |
+| Styling | Tailwind CSS |
+| State | Zustand |
+| Charts | Recharts |
+| Build/Serve | Vite |
+
+## Installation
+
+```bash
+npm install
+```
+
+## Development
+
+```bash
+npm run dev
+```
+
+Then open:
+http://localhost:5173/AOM-Virtual-Lab-Updated/
+
+## Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## Project Structure
+
+```text
+├── index.html
+├── vite.config.js
+├── src/
+│   ├── main.jsx       # React entry point
+│   ├── App.jsx        # Virtual lab scene + experiment UI
+│   └── store.js       # Zustand store (laser/RF/modulation state)
+└── index.css
+```
+
+## Screenshots
+
+Screenshot 1  
+Screenshot 2  
+Screenshot 3  
+Screenshot 4  
+Screenshot 5  
+Screenshot 6  
+
+## How to Use (Quick Start)
+
+1. Click **Enter Laboratory**.
+2. Pick an experiment from the **Select Experiment** dropdown.
+3. Toggle the **Laser** power.
+4. Adjust available parameters (RF Frequency, RF Power, Modulation Freq, Beam Diameter).
+5. Observe the 3D beam behavior and the **Power Meter / Oscilloscope** overlay update live.
+
+## Notes
+
+This is an educational simulation/visualization tool designed to demonstrate AOM theory and experiment workflows in an interactive way.
+
+📬 Contact: therthamrajasri@gmail.com
