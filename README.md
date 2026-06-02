@@ -102,4 +102,4 @@ npm run preview
 
 This is an educational simulation/visualization tool designed to demonstrate AOM theory and experiment workflows in an interactive way.
 
-📬 Contact: therthamrajasri@gmail.com
+📬 Contact: theerthamrajasri@gmail.com
