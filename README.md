@@ -88,16 +88,7 @@ npm run preview
 │   ├── App.jsx        # Virtual lab scene + experiment UI
 │   └── store.js       # Zustand store (laser/RF/modulation state)
 └── index.css
-```
-
-## Screenshots
-
-Screenshot 1  
-Screenshot 2  
-Screenshot 3  
-Screenshot 4  
-Screenshot 5  
-Screenshot 6  
+``` 
 
 ## How to Use (Quick Start)
 
